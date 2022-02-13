@@ -35,7 +35,7 @@ examples below which should be followed exactly as far as spacing is concerned.
 
 Sample Input
 
- The following text<C><B>is centered and in boldface</B></C>
+The following text<C><B>is centered and in boldface</B></C>
 
 <B>This <\g>is <B>boldface</B> in <<*> a</B> <\6> <<d>sentence
 
@@ -47,7 +47,7 @@ Sample Input
 
 Sample Output (for above input)
 
- Correctly tagged paragraph
+Correctly tagged paragraph
 
 Correctly tagged paragraph
 
@@ -55,4 +55,4 @@ Expected </C> found </B>
 
 Expected # found </C>
 
-Expected </B> found #
+Expected </B> found #
